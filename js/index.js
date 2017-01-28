@@ -2,7 +2,7 @@ $("._27").mouseenter(
   function(){
   $(this).css("background-color","red");
   $(this).css("color","white");
-  $(".call").html("<h4>除夕</h4>");
+  $(".call").html("<h4>除夕吃飯拿紅包耍廢</h4>");
   }
 );
 
@@ -18,7 +18,7 @@ $("._29").mouseenter(
   function(){
   $(this).css("background-color","red");
   $(this).css("color","white");
-  $(".call").html("<h4>初二</h4>");
+  $(".call").html("<h4>初二回娘家耍廢</h4>");
   }
 );
 
@@ -34,7 +34,7 @@ $("._30").mouseenter(
   function(){
   $(this).css("background-color","black");
   $(this).css("color","white");
-  $(".call").html("<h4>初三</h4>");
+  $(".call").html("<h4>初三好日子耍廢</h4>");
   }
 );
 
@@ -50,7 +50,7 @@ $("._31").mouseenter(
   function(){
   $(this).css("background-color","black");
   $(this).css("color","white");
-  $(".call").html("<h4>初四</h4>");
+  $(".call").html("<h4>初四要開工前耍廢</h4>");
   }
 );
 
@@ -66,7 +66,7 @@ $(".green").mouseenter(
   function(){
   $(this).css("background-color","green");
   $(this).css("color","white");
-  $(".call").html("<h4>初一</h4>");
+  $(".call").html("<h4>初一開春耍廢</h4>");
   $(this).addclass("hat");
   }
 );
@@ -80,65 +80,65 @@ $(".green").mouseleave(
 );
 
 $(".mouth").mouseenter(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　欠揍嗎？咬你喔。");
   }
 );
 $(".mouth").mouseleave(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　　　　　　🐔掰。");
   }
 );
 $(".hat").mouseenter(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　　　　key 摸🐔~");
   }
 );
 
 $(".hat").mouseleave(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　　　　　呼呼...蘇胡");
   }
 );
 
 $(".eyes").mouseenter(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　　戳我眼睛幹嘛？");
   }
 );
 $(".eyes").mouseleave(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　　　祝你長🐔眼。");
   }
 );
 $(".wing").mouseenter(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　　　　🐔年高飛!");
   }
 );
 $(".wing").mouseleave(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　　　　　我在飛呀～");
   }
 );
 $(".foot").mouseenter(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　　　我沒有第三🐔腳！");
   }
 );
 $(".foot").mouseleave(
-  function(){ 
+  function(){
   $(".talk").html("➤　　　公🐔都被幹掉惹，幫QQ。");
   }
 );
 $(".junk").mouseenter(
-  function(){ 
+  function(){
   $(".junk ").css("background-color","#1566ea");
   $(".junk ").css("color","#edeff2");
   }
 );
 $(".junk").mouseleave(
-  function(){ 
+  function(){
   $(".junk ").css("background-color","#edeff2");
   $(".junk ").css("color","#1566ea");
   }
