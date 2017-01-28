@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito')
+
+@mixin size($w,$h)
+  width: $w
+  height: $h
+@mixin border
+  border: solid 3px $lunar
+@mixin position($L)
+  margin-left: $L
+    
+$background: #edeff2
+$body: #ffc04c
+$cap: #050d93
+$wing: #e59400
+$mouth: #f46242
+$foot: #a32d2d
+$lunar: #d82c15
+$bug: #1566ea
+  
+*
+  // border: solid 1px black
+  box-sizing: border-box
+  position: relative
+  background-color: $background
+  vertical-align: top
+  font-family: 微軟正黑體
+html, body
+  +size(100%,99%)
+  padding: 0px
+  margin: 0px
+.calendar
+  display: inline-block
+  +position(40%)
+  margin-top: 2%
+  +border
+  box-sizing: border-box
+  // box-shadow: 5 5 10 10px $lunar    
+  .call
+    margin-bottom: -40px
+    text-align: center
+    font-size: 30px
+    color: $lunar
+  svg
+    .chicken
+    & .top
+      fill: $lunar
+    & .body
+      fill: $body
+    & .bg
+      fill: $background
+    & .hat
+      fill: $cap
+    & .wing
+      fill: $wing
+    & .mouth
+      fill: $mouth
+    & .foot
+      fill: $foot
+
+  .days
+    padding: 5px
+    margin-left: 2px
+  .dayclass
+    display: inline-block
+    margin: 4px
+    padding: 6px 8px 6px 8px
+    border-radius: 100%
+    font-family: 'Nunito', sans-serif
+    font-size: 25px
+  .conversation
+    +size(90%,80px)
+    display: flex
+    margin-top: -8px
+    margin-left: 15px
+    text-align: center
+    .talk
+      margin-top: 20px
+      color: $lunar
+  .fold
+    display: border-box
+    width: 100%
+    height: 10px
+    font-size: 0px
+    padding: 0px
+    margin: 0px
+    +border
+@media screen and(max-width: 800px)
+  .calendar
+    +position(20%)
+  
+@media screen and(max-width: 400px)
+  .calendar
+    +position(2%)
+.junk
+  cursor: pointer
+  display: inline-block
+  font-size: 14px
+  border: $bug solid 2px
+  color: $bug
+  text-align: center
+  padding: 1% 3% 1% 3%
+  margin-top: -7%
+  margin-left: 40%
+    
+    
